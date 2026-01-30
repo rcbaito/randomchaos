@@ -1,0 +1,145 @@
+Group {
+  Anchor: (Width: 1000, Height: 1000);
+  Background: #1a1a2e(0.0);
+  LayoutMode: Center;
+  Group {
+    Anchor: (Width: 1000, Height: 20, Left: 0, Top: 100);
+    Background: #1a1a2e(0.95);
+    LayoutMode: Left;
+    Group #ChaosProgressBar {
+      Anchor: (Width: 500, Height: 20);
+      Background: #00ff48(0.95);
+    }
+  }
+  Group {
+    Anchor: (Width: 200, Height: 500, Left: 0, Right: 0);
+    Background: #1a1a2e(0.0);
+    LayoutMode: Top;
+    Group #EventTemplate1 {
+      Visible: false;
+      Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+      Background: #1a1a2e(0.0);
+      LayoutMode: Left;
+      Label #EventTitle1 {
+        Anchor: (Width: 100, Height: 20, Top: 0);
+        Text: "Event Test";
+        Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+      }
+      Group #EventBar1 {
+        Anchor: (Width: 100, Height: 20, Top: 0);
+        Background: #1a1a2e(0.95);
+        LayoutMode: Center;
+        Group #EventProgressBar1 {
+          Anchor: (Width: 100, Height: 15);
+          Background: #ff0000(0.95);
+          LayoutMode: Center;
+        }
+      }
+    }
+    Group #EventTemplate2 {
+          Visible: false;
+          Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+          Background: #1a1a2e(0.0);
+          LayoutMode: Left;
+          Label #EventTitle2 {
+            Anchor: (Width: 100, Height: 20, Top: 0);
+            Text: "Event Test";
+            Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+          }
+          Group #EventBar2 {
+            Anchor: (Width: 100, Height: 20, Top: 0);
+            Background: #1a1a2e(0.95);
+            LayoutMode: Center;
+            Group #EventProgressBar2 {
+              Anchor: (Width: 100, Height: 15);
+              Background: #ff0000(0.95);
+              LayoutMode: Center;
+            }
+          }
+   }
+   Group #EventTemplate3 {
+         Visible: false;
+         Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+         Background: #1a1a2e(0.0);
+         LayoutMode: Left;
+         Label #EventTitle3 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Text: "Event Test";
+           Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+         }
+         Group #EventBar3 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Background: #1a1a2e(0.95);
+           LayoutMode: Center;
+           Group #EventProgressBar3 {
+             Anchor: (Width: 100, Height: 15);
+             Background: #ff0000(0.95);
+             LayoutMode: Center;
+           }
+         }
+   }
+   Group #EventTemplate4 {
+         Visible: false;
+         Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+         Background: #1a1a2e(0.0);
+         LayoutMode: Left;
+         Label #EventTitle4 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Text: "Event Test";
+           Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+         }
+         Group #EventBar4 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Background: #1a1a2e(0.95);
+           LayoutMode: Center;
+           Group #EventProgressBar4 {
+             Anchor: (Width: 100, Height: 15);
+             Background: #ff0000(0.95);
+             LayoutMode: Center;
+           }
+         }
+   }
+   Group #EventTemplate5 {
+         Visible: false;
+         Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+         Background: #1a1a2e(0.0);
+         LayoutMode: Left;
+         Label #EventTitle5 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Text: "Event Test";
+           Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+         }
+         Group #EventBar5 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Background: #1a1a2e(0.95);
+           LayoutMode: Center;
+           Group #EventProgressBar5 {
+             Anchor: (Width: 100, Height: 15);
+             Background: #ff0000(0.95);
+             LayoutMode: Center;
+           }
+         }
+   }
+   Group #EventTemplate6 {
+         Visible: false;
+         Anchor: (Width: 200, Height: 20, Left: 0, Right: 0);
+         Background: #1a1a2e(0.0);
+         LayoutMode: Left;
+         Label #EventTitle6 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Text: "Event Test";
+           Style: (FontSize: 10,TextColor: #ffffff,RenderBold: true);
+         }
+         Group #EventBar6 {
+           Anchor: (Width: 100, Height: 20, Top: 0);
+           Background: #1a1a2e(0.95);
+           LayoutMode: Center;
+           Group #EventProgressBar6 {
+             Anchor: (Width: 100, Height: 15);
+             Background: #ff0000(0.95);
+             LayoutMode: Center;
+           }
+         }
+   }
+  }
+}

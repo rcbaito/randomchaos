@@ -1,0 +1,13 @@
+{
+  "Group":  "me.rcbaito.hytale",
+  "Name": "randomchaos",
+  "Version": "1.1.0",
+  "Main": "me.rcbaito.hytale.plugin.randomchaos",
+  "Authors": [
+    {
+      "Name": "rcbaito"
+    }
+  ],
+  "Website": "https://github.com/rcbaito/randomchaos",
+  "IncludesAssetPack" : true
+}
