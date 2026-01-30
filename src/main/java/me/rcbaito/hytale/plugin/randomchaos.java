@@ -20,17 +20,14 @@ public class randomchaos extends JavaPlugin {
         try {
             System.out.println("[Chaos] Attempting to register ECS components...");
 
-            // 1. Register Damage Component & System
             EventHelper.DamageMultiplierComponent.TYPE =
                     this.getEntityStoreRegistry().registerComponent(
                             EventHelper.DamageMultiplierComponent.class,
                             EventHelper.DamageMultiplierComponent::new
                     );
 
-            // Register the Damage System (It listens to damage events)
             this.getEntityStoreRegistry().registerSystem(new EventHelper.DamageSystem());
 
-            // 2. Register Speed Component (Logic is handled manually in ChaosGameManager)
             EventHelper.ChaosSpeedComponent.TYPE =
                     this.getEntityStoreRegistry().registerComponent(
                             EventHelper.ChaosSpeedComponent.class,
