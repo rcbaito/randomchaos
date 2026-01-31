@@ -20,8 +20,8 @@ Whether you are running at Sonic speed, jumping with Moon Gravity, or fighting a
 
 ## Features
 
-* ** Random Events:** Over **10+ unique events** ranging from helpful buffs to deadly debuffs.
-* ** Custom HUD:** Real-time display of the chaos timer and active effects.
+* Random Events: Over **10+ unique events** ranging from helpful buffs to deadly debuffs.
+* Custom HUD: Real-time display of the chaos timer and active effects.
 
 ---
 
